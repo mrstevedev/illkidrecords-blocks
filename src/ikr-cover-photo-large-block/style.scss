@@ -1,0 +1,40 @@
+.bg__photo--coverLg {
+    position: relative;
+	height: 400px;
+    .cta__container {
+		background: rgba(0, 0, 0, 0.9);
+        // height: 8rem;
+        width: 37rem;
+        position: absolute;
+        bottom: 9rem;
+        padding: 3rem;
+    }
+    .left { left: 0 }
+    .right { right: 0 }
+    .cta__container--TxtTop {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .cta__container--TxtBtm {        
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #ccc;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .cta__container--btm {
+        display: flex;
+        align-items: center;
+    }
+    .cta__Container--TxtBtmCoupon {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: #e49393;
+        font-weight: bold;
+        margin: 0;
+        padding: 0 0 0 0.3rem;
+    }
+}

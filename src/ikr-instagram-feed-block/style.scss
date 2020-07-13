@@ -1,0 +1,68 @@
+.wp-block-cgb-ikr-instagram-feed-block {
+    padding: 0 10rem;
+    
+    img {
+        margin: 0 auto;
+        display: flex;
+        width: 50px;
+    }
+}
+
+.ig__icon {
+    background-image: none !important;
+}
+
+.ig__icon:hover {
+    background-image: none !important;
+}
+
+.ig-feed-svg {
+    transition: .12s ease-in-out;
+    padding: 0.3rem 0;
+}
+
+.ig-feed-svg:hover {
+    fill: #BE817B;
+}
+
+.tooltip-inner {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+
+.ig__feedBtn--btm {
+    margin: 1rem 0 6rem;
+    text-align: center;
+    button {
+        background: #F7F7F7;
+        border: none;
+        padding: 0.5rem 1.8rem;
+        border-radius: 4px;
+        box-shadow: 0 2px 1px #ccc;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    button:focus {
+        outline: none;
+    }
+}
+
+.IG__images-img {
+    margin: 3rem 0;
+    max-width: 1200px;
+    display: grid;
+    grid-auto-rows: 348px;
+    grid-template-columns: repeat(auto-fill, minmax(279px, 1fr));
+    grid-gap: 2em;
+
+    div {
+        overflow: hidden;
+    }
+
+    img {
+        max-width: 133%;
+    }
+}
+

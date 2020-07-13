@@ -1,0 +1,27 @@
+.wp-block-cgb-ikr-instagram-feed-block {
+    padding: 2rem 10rem;
+    background: #f9f9f9;
+    img {
+        margin: 0 auto;
+        display: flex;
+        width: 50px;
+    }
+    p {
+        font-family: 'Bio Sans';
+        font-weight: bold;
+    } 
+}
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-auto-rows: 133px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 0.4em;
+
+    div {
+        overflow: hidden;
+    }
+}

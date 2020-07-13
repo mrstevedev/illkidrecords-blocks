@@ -1,0 +1,21 @@
+.page__container {
+    text-align: center;
+    padding: 5rem .5rem;
+}
+
+.page__container--title {
+    font-size: 24px!important;
+    text-align: center;
+    font-family: 'Bio Sans';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.page__container--title::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 33px;
+    margin: 7px auto;
+    background: #0F0F0F;
+}

@@ -1,0 +1,46 @@
+.crew__component--card {
+    margin: 1rem 0 15rem;
+}
+.crew__component--btn {
+    opacity: 0;
+    transition: .12s ease;
+    text-transform: uppercase;
+}
+
+.crew__component--avatar:hover {
+   .crew__component--btn {
+        opacity: 1;
+        background: #101010;
+        font-size: 0.8rem;
+        border-radius: 6px;
+        padding: 0.6em 2.4rem;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        box-shadow: 0 2px 0 0 #000;
+   }
+}
+
+.crew__component--artist {
+    text-align: center;
+    font-family: 'Bio Sans';
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1.8rem 0 10px;
+}
+
+.crew__component--description {
+    text-align: center;
+    font-family: 'Bio Sans';
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a0a0a0;
+}
+
+.wp-block-columns {
+    width: 500px;
+    margin: 0 auto;
+}
