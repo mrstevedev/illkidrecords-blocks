@@ -88,12 +88,11 @@ function render_instagram_feed_block( $attributes ) {
                         }
                     $photos_output .= '
                     </main>
-                        <div class="ig__feedBtn--btm">
+                        <!-- <div class="ig__feedBtn--btm">
                             <div class="container">
                                 <button class="load__more--btn">Load More</button>
                             </div>
-                        </div>
-                    ';
+                        </div>-->';
                     return $photos_output;
             }
         }
