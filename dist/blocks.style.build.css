@@ -14,7 +14,6 @@
   width: 220px;
   margin: 0 auto;
   color: #fff;
-  font-family: bio-sans, sans-serif;
   height: 52px;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +80,6 @@
       background-image: none; }
 
 .slide__CTA {
-  background: rgba(0, 0, 0, 0.8);
   width: 75%;
   height: 11rem;
   position: absolute;
@@ -89,8 +87,7 @@
   right: 0;
   display: -ms-flexbox;
   display: flex;
-  padding: 3.5rem 0;
-  font-family: Bio Sans; }
+  padding: 3.5rem 0; }
   .slide__CTA h1 {
     color: #fff !important;
     text-transform: uppercase;
@@ -175,7 +172,6 @@
 .page__container--title {
   font-size: 24px !important;
   text-align: center;
-  font-family: 'Bio Sans';
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -193,7 +189,6 @@
  * that are used across the project.
 */
 .about__container {
-  width: 1020px;
   margin: 0rem auto 4rem;
   padding: 0;
   -webkit-box-shadow: 0px 5px 6px #f1f1f1;
@@ -204,6 +199,15 @@
   font-size: 20px;
   font-weight: bold;
   line-height: 35px; }
+
+@media (min-width: 996px) {
+  .about__container {
+    width: 1020px; } }
+
+@media (max-width: 515px) {
+  .about__container--text {
+    padding: 2rem 2rem;
+    font-size: 16px; } }
 /**
  * #.# Common SCSS
  *
@@ -255,7 +259,7 @@
     outline: none; }
 
 .IG__images-img {
-  margin: 3rem 0;
+  margin: 3rem 0 10rem 0;
   max-width: 1200px;
   display: grid;
   grid-auto-rows: 348px;
@@ -278,10 +282,10 @@
   .wp-block-cgb-block-illkidrecords-blocks-thank-you .thank-you--text {
     font-family: 'bio sans';
     font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    color: #a5a5a5; }
   .wp-block-cgb-block-illkidrecords-blocks-thank-you .thankyou__text--highlite {
-    color: #ccc; }
+    color: #333; }
 /**
  * #.# Common SCSS
  *
@@ -372,8 +376,8 @@
 
 .crew__component--description {
   text-align: center;
-  font-family: 'Bio Sans';
-  font-size: 22px;
+  font-family: 'HelveticaNeueBold';
+  font-size: 17px;
   text-transform: uppercase;
   font-weight: bold;
   color: #a0a0a0; }
@@ -381,6 +385,12 @@
 .wp-block-columns {
   width: 500px;
   margin: 0 auto; }
+
+@media (max-width: 545px) {
+  .crew__component--card {
+    margin: 0rem 0 2rem; }
+  .wp-block-columns {
+    width: initial; } }
 /**
  * #.# Common SCSS
  *
@@ -390,11 +400,11 @@
 .wp-block-cgb-block-illkidrecords-blocks-about-artist-block {
   padding: 2rem 2rem 15rem; }
   .wp-block-cgb-block-illkidrecords-blocks-about-artist-block p {
-    font-size: 1.5rem;
-    font-family: 'Helvetica Neue';
+    font-size: 1rem;
+    font-family: 'HelveticaNeueMed';
     line-height: 40px;
     font-weight: 500;
-    color: #929292; }
+    color: #333; }
   .wp-block-cgb-block-illkidrecords-blocks-about-artist-block .about__container--description a {
     font-size: 0.9rem;
     text-transform: uppercase; }
