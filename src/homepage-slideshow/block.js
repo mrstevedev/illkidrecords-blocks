@@ -12,7 +12,7 @@
  const { __ } = wp.i18n; // Import __() from wp.il8n;
  const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.blocks
  const { Component } = wp.element;
- const { PanelBody, ToggleControl, TextControl, Button } = wp.components;
+ const { PanelBody, ToggleControl, TextControl, Button, ColorPicker } = wp.components;
  const { InspectorControls, RichText, MediaUpload, MediaUploadCheck } = wp.blockEditor;
 
  const defaultAttributes = {
@@ -91,6 +91,9 @@
 		},
 		activeId: {
 			type: 'number'
+		},
+		ctaColor: {
+			type: 'object'
 		}
 	},
     keywords: [
@@ -213,6 +216,10 @@
 				transition: '.12s ease-in-out',
 				backgroundImage: "url(" +  this.props.attributes.imgUrl +  ")"				
 			};
+
+			const ctaBoxBgColor = {
+				backgroundColor: this.props.attributes.ctaColor
+			}
 			return (			 
 				<div className={ this.props.className }>
 					{
@@ -246,6 +253,12 @@
 								   placeholder={ 'Add URL' }
 								   onChange={ value => this.props.setAttributes({ linkURL: value }) }
 							   />
+							   <ColorPicker
+									color={ this.props.attributes.ctaColor }
+									onChangeComplete={
+										value => this.props.setAttributes( { ctaColor: `rgba(${ value.rgb.r }, ${ value.rgb.g }, ${ value.rgb.b }, ${ value.rgb.a })` } )
+									}
+								/>
 						   </PanelBody>
 					   </InspectorControls>
 					}
@@ -340,7 +353,7 @@
 							/>
 						</MediaUploadCheck>
 						{this.props.attributes.showCTA ? (
-							<div className="slide__CTA">
+							<div className="slide__CTA" style={ ctaBoxBgColor }>
 							<div className="slide__CTA--left">
 							   <RichText 
 								   tagName="h1"
@@ -421,36 +434,35 @@
 	 * @returns {Mixed} JSX Frontend HTML.
 	 */
      save: ( { attributes } ) => {
-		
+
 		 const bgStyle = {
 			backgroundImage: "url(" +  attributes.imgUrl +  ")",
 			backgroundRepeat: 'no-repeat',
 			backgroundSize: 'cover',
 			backgroundPosition: '0 -31px',
-			height: '100%',
+			height: '100vh',
 			display: 'flex',
-			alignItems: 'center'
-		 }
+			alignItems: 'center',
+			position: 'relative'
+		 };
+
+		 const ctaBoxBgColor = {
+			backgroundColor: attributes.ctaColor
+		};
 
 		//  const handleSlideSelect = e => {
 		// 	 console.log(e);
 		//  }
          return (	
              <div className={ attributes.className } style={ bgStyle }
-				data-aos="fade-in" 
-				data-aos-delay="10"
-				data-aos-duration="10"
-				data-aos-easing="ease-in-out"
-				data-aos-mirror="true"
-				data-aos-once="false"
-				data-aos-anchor-placement="top-center"
+				
 			 >
 			{ attributes.showCTA ? (
 				 <div className="slide__CTA"
-					data-aos="fade-left" 
+					data-aos="fade" 
 					data-aos-delay="1400"
 					data-aos-duration="10"
-					data-aos-easing="ease-in-out">
+					data-aos-easing="ease-in-out" style={ ctaBoxBgColor }>
 				<div className="slide__CTA--left">
 					<RichText.Content tagName="h1" value={ attributes.CTADescriptionLeft } />
 						<div className="slide__CTA--leftBtm">

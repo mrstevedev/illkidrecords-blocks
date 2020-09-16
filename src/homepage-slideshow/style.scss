@@ -9,7 +9,6 @@
    width: 220px;
    margin: 0 auto;
    color: #fff;
-   font-family: bio-sans, sans-serif;
    height: 52px;
    display: flex;
    align-items: center;
@@ -84,7 +83,7 @@
 }
 
 .slide__CTA {
-    background: rgba(0, 0, 0, 0.8);
+    // background: rgba(0, 0, 0, 0.8);
     width: 75%;
     height: 11rem;
     position: absolute;
@@ -92,7 +91,6 @@
     right: 0;
     display: flex;
     padding: 3.5rem 0;
-    font-family: Bio Sans;
 
     h1 {
         color: #fff!important;

@@ -21,7 +21,7 @@ this.setInterval(() => {
 
            
             jQuery('.wp-block-cgb-block-illkidrecords-blocks-slideshow')
-            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100%; display: flex; align-items: center;transition: .22s ease-in-out');
+            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100vh; display: flex; align-items: center; position: relative; transition: .22s ease-in-out');
 
         } else {
             jQuery(activeClass).next('.slide-dots-list li').addClass('active');
@@ -34,7 +34,7 @@ this.setInterval(() => {
             const url = newObj[0].url;
 
             jQuery('.wp-block-cgb-block-illkidrecords-blocks-slideshow')
-            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100%; display: flex; align-items: center;transition: .22s ease-in-out');
+            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100vh; display: flex; align-items: center; position: relative; transition: .22s ease-in-out');
     
         }
     }
@@ -54,7 +54,7 @@ for(let i = 0; i < slideSelectBtns.length; i++) {
     const url = newObj[0].url;
 
     const newBg = jQuery('.wp-block-cgb-block-illkidrecords-blocks-slideshow')
-        .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100%; display: flex; align-items: center;transition: .22s ease-in-out');
+        .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100vh; display: flex; align-items: center; position: relative; transition: .22s ease-in-out');
             
     localStorage.setItem('currSlideId', JSON.stringify(id));
     });
@@ -80,7 +80,7 @@ const nextSlide = e => {
 
            
             jQuery('.wp-block-cgb-block-illkidrecords-blocks-slideshow')
-            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100%; display: flex; align-items: center;transition: .22s ease-in-out');
+            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100vh; display: flex; align-items: center; position:relative; transition: .22s ease-in-out');
 
         } else {
             jQuery(activeClass).next('.slide-dots-list li').addClass('active');
@@ -93,7 +93,7 @@ const nextSlide = e => {
             const url = newObj[0].url;
 
             jQuery('.wp-block-cgb-block-illkidrecords-blocks-slideshow')
-            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100%; display: flex; align-items: center;transition: .22s ease-in-out');
+            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100vh; display: flex; align-items: center; position: relative; transition: .22s ease-in-out');
     
         }
     }
@@ -120,7 +120,7 @@ const prevSlide = e => {
 
            
             jQuery('.wp-block-cgb-block-illkidrecords-blocks-slideshow')
-            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100%; display: flex; align-items: center;transition: .22s ease-in-out');
+            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100vh; display: flex; align-items: center; position: relative; transition: .22s ease-in-out');
 
         } else {
              jQuery(activeClass).prev('.slide-dots-list li').addClass('active');
@@ -133,7 +133,7 @@ const prevSlide = e => {
             const url = newObj[0].url;
 
             jQuery('.wp-block-cgb-block-illkidrecords-blocks-slideshow')
-            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100%; display: flex; align-items: center;transition: .22s ease-in-out');
+            .attr('style', 'background-image: url("'+ url +'"); background-repeat: no-repeat; background-size: cover; background-position: 0 -31px; height: 100vh; display: flex; align-items: center; position: relative; transition: .22s ease-in-out');
         }
     }   
 }
