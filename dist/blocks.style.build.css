@@ -1,9 +1,412 @@
-.vinyl-store-label{position:absolute;bottom:-1.4rem;left:0;right:0;text-align:center;background:#000;width:220px;margin:0 auto;color:#fff;height:52px;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;font-size:0.6rem}.vinyl-store-label h3{text-transform:uppercase}.slide-dots-list{list-style-type:none !important;position:absolute;bottom:65px;left:0;right:0;text-align:center;margin:0 auto;z-index:1;padding:0;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center}.slide-dots-list a{outline:none}.slide-dots-list .active .dots{background:#fff}.slide-dots-list li{display:inline-block}.dots{width:15px;height:15px;display:block;background:#333;margin:0.3rem;border-radius:100%;-webkit-transition:.22s ease;-o-transition:.22s ease;transition:.22s ease}.slideshow-arrows{display:-ms-flexbox;display:flex;width:100%;-ms-flex-pack:justify;justify-content:space-between;padding:0 10rem;position:absolute}.slideshow-arrows .slideshow-arrows-list{display:-ms-flexbox;display:flex;width:100%;-ms-flex-pack:justify;justify-content:space-between;padding:0 0rem;list-style:none}.slideshow-arrows .slideshow-arrows-list a{display:block;background-image:none}.slideshow-arrows .slideshow-arrows-list a:hover{background-image:none}.slide__CTA{width:75%;height:11rem;position:absolute;bottom:135px;right:0;display:-ms-flexbox;display:flex;padding:3.5rem 0}.slide__CTA h1{color:#fff !important;text-transform:uppercase;font-size:2.6rem !important;font-weight:800;text-align:right;margin:0 !important;line-height:40px}.slide__CTA h4,.slide__CTA a{color:#fff;text-transform:uppercase;font-size:1.3rem !important;font-weight:800;text-align:right;margin:0 !important}.slide__CTA--left{width:53%;padding:0 2rem 0 0rem}.slide__CTA--right{width:40%;padding:0 1rem 0 2rem;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}.slide__CTA--right h4{text-align:left}.cta-separator{background:#fff;width:1px;height:100%}.slide__CTA--leftBtm{display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end;font-size:.7rem}.slide__CTA--leftBtm .cta-link-text{color:#BE817B !important;font-weight:800;text-transform:uppercase;margin:0 0 0 4px;position:relative;padding-left:4px;bottom:3px;text-decoration:none}.slideshow-arrows-list li a svg{-webkit-transition:.14s ease-in-out;-o-transition:.14s ease-in-out;transition:.14s ease-in-out}.slideshow-arrows-list li a:hover{fill:#fff}.slide-dots-list li a .dots:hover{background:#fff !important}@media (max-width: 1147px){.slideshow__slide--main{width:100%}.slide__CTA{width:100%}.slide__CTA h1{font-size:2.2rem !important}.vinyl-store-label{bottom:0.3rem}}
-.page__container{text-align:center;padding:5rem .5rem}.page__container--title{font-size:24px !important;text-align:center;text-transform:uppercase;font-weight:bold}.page__container--title::after{content:'';display:block;height:3px;width:33px;margin:7px auto;background:#0F0F0F}
-.about__container{margin:0rem auto 4rem;padding:0;-webkit-box-shadow:0px 5px 6px #f1f1f1;box-shadow:0px 5px 6px #f1f1f1}.about__container--text{padding:2rem 6rem;font-size:20px;font-weight:bold;line-height:35px}@media (min-width: 996px){.about__container{width:1020px}}@media (max-width: 515px){.about__container--text{padding:2rem 2rem;font-size:16px}}
-.wp-block-cgb-ikr-instagram-feed-block{padding:0 10rem}.wp-block-cgb-ikr-instagram-feed-block img{margin:0 auto;display:-ms-flexbox;display:flex;width:50px}.ig__icon{background-image:none !important}.ig__icon:hover{background-image:none !important}.ig-feed-svg{-webkit-transition:.12s ease-in-out;-o-transition:.12s ease-in-out;transition:.12s ease-in-out;padding:0.3rem 0}.ig-feed-svg:hover{fill:#BE817B}.tooltip-inner{font-weight:bold;text-transform:uppercase;font-size:0.6rem}.ig__feedBtn--btm{margin:1rem 0 6rem;text-align:center}.ig__feedBtn--btm button{background:#F7F7F7;border:none;padding:0.5rem 1.8rem;border-radius:4px;-webkit-box-shadow:0 2px 1px #ccc;box-shadow:0 2px 1px #ccc;font-weight:bold;text-transform:uppercase;font-size:13px}.ig__feedBtn--btm button:focus{outline:none}.IG__images-img{margin:3rem 0 10rem 0;max-width:1200px;display:grid;grid-auto-rows:348px;grid-template-columns:repeat(auto-fill, minmax(279px, 1fr));grid-gap:2em}.IG__images-img div{overflow:hidden}.IG__images-img img{max-width:133%}
-.wp-block-cgb-block-illkidrecords-blocks-thank-you{width:700px;padding:1rem 5rem 10rem;margin:0 auto}.wp-block-cgb-block-illkidrecords-blocks-thank-you .thank-you--text{font-family:'bio sans';font-weight:bold;font-size:1.2rem;color:#a5a5a5}.wp-block-cgb-block-illkidrecords-blocks-thank-you .thankyou__text--highlite{color:#333}
-.bg__photo--cover{height:170px}
-.bg__photo--coverLg{position:relative;height:400px}.bg__photo--coverLg .cta__container{background:rgba(0,0,0,0.9);width:37rem;position:absolute;bottom:9rem;padding:3rem}.bg__photo--coverLg .left{left:0}.bg__photo--coverLg .right{right:0}.bg__photo--coverLg .cta__container--TxtTop{color:#fff;font-weight:bold;font-size:1.5rem;text-transform:uppercase;margin:0}.bg__photo--coverLg .cta__container--TxtBtm{font-weight:bold;font-size:1.2rem;color:#ccc;text-transform:uppercase;margin:0}.bg__photo--coverLg .cta__container--btm{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}.bg__photo--coverLg .cta__Container--TxtBtmCoupon{font-size:1.2rem;text-transform:uppercase;color:#e49393;font-weight:bold;margin:0;padding:0 0 0 0.3rem}
-.crew__component--card{margin:1rem 0 15rem}.crew__component--btn{opacity:0;-webkit-transition:.12s ease;-o-transition:.12s ease;transition:.12s ease;text-transform:uppercase}.crew__component--avatar:hover .crew__component--btn{opacity:1;background:#101010;font-size:0.8rem;border-radius:6px;padding:0.6em 2.4rem;color:#fff;text-decoration:none;font-weight:bold;text-transform:uppercase;-webkit-box-shadow:0 2px 0 0 #000;box-shadow:0 2px 0 0 #000}.crew__component--artist{text-align:center;font-family:'Bio Sans';font-size:22px;font-weight:bold;text-transform:uppercase;margin:1.8rem 0 10px}.crew__component--description{text-align:center;font-family:'HelveticaNeueBold';font-size:17px;text-transform:uppercase;font-weight:bold;color:#a0a0a0}.wp-block-columns{width:500px;margin:0 auto}@media (max-width: 545px){.crew__component--card{margin:0rem 0 2rem}.wp-block-columns{width:initial}}
-.wp-block-cgb-block-illkidrecords-blocks-about-artist-block{padding:2rem 2rem 15rem}.wp-block-cgb-block-illkidrecords-blocks-about-artist-block p{font-size:1rem;font-family:'HelveticaNeueMed';line-height:40px;font-weight:500;color:#333}.wp-block-cgb-block-illkidrecords-blocks-about-artist-block .about__container--description a{font-size:0.9rem;text-transform:uppercase}
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.vinyl-store-label {
+  position: absolute;
+  bottom: -1.4rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: #000;
+  width: 220px;
+  margin: 0 auto;
+  color: #fff;
+  height: 52px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-size: 0.6rem; }
+  .vinyl-store-label h3 {
+    text-transform: uppercase; }
+
+.slide-dots-list {
+  list-style-type: none !important;
+  position: absolute;
+  bottom: 65px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .slide-dots-list a {
+    outline: none; }
+  .slide-dots-list .active .dots {
+    background: #fff; }
+  .slide-dots-list li {
+    display: inline-block; }
+
+.dots {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background: #333;
+  margin: 0.3rem;
+  border-radius: 100%;
+  -webkit-transition: .22s ease;
+  -o-transition: .22s ease;
+  transition: .22s ease; }
+
+.slideshow-arrows {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 0 10rem;
+  position: absolute; }
+  .slideshow-arrows .slideshow-arrows-list {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding: 0 0rem;
+    list-style: none; }
+    .slideshow-arrows .slideshow-arrows-list a {
+      display: block;
+      background-image: none; }
+    .slideshow-arrows .slideshow-arrows-list a:hover {
+      background-image: none; }
+
+.slide__CTA {
+  width: 75%;
+  height: 11rem;
+  position: absolute;
+  bottom: 135px;
+  right: 0;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3.5rem 0; }
+  .slide__CTA h1 {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 2.6rem !important;
+    font-weight: 800;
+    text-align: right;
+    margin: 0 !important;
+    line-height: 40px; }
+  .slide__CTA h4, .slide__CTA a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem !important;
+    font-weight: 800;
+    text-align: right;
+    margin: 0 !important; }
+
+.slide__CTA--left {
+  width: 53%;
+  padding: 0 2rem 0 0rem; }
+
+.slide__CTA--right {
+  width: 40%;
+  padding: 0 1rem 0 2rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .slide__CTA--right h4 {
+    text-align: left; }
+
+.cta-separator {
+  background: #fff;
+  width: 1px;
+  height: 100%; }
+
+.slide__CTA--leftBtm {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  font-size: .7rem; }
+  .slide__CTA--leftBtm .cta-link-text {
+    color: #BE817B !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 0 4px;
+    position: relative;
+    padding-left: 4px;
+    bottom: 3px;
+    text-decoration: none; }
+
+.slideshow-arrows-list li a svg {
+  -webkit-transition: .14s ease-in-out;
+  -o-transition: .14s ease-in-out;
+  transition: .14s ease-in-out; }
+
+.slideshow-arrows-list li a:hover {
+  fill: #fff; }
+
+.slide-dots-list li a .dots:hover {
+  background: #fff !important; }
+
+@media (max-width: 1147px) {
+  .slideshow__slide--main {
+    width: 100%; }
+  .slide__CTA {
+    width: 100%; }
+  .slide__CTA h1 {
+    font-size: 2.2rem !important; }
+  .vinyl-store-label {
+    bottom: 0.3rem; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.page__container {
+  text-align: center;
+  padding: 5rem .5rem; }
+
+.page__container--title {
+  font-size: 24px !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: DopeJam, sans-serif; }
+
+.page__container--title::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 33px;
+  margin: 7px auto;
+  background: #0F0F0F; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.about__container {
+  margin: 0rem auto 4rem;
+  padding: 0;
+  -webkit-box-shadow: 0px 5px 6px #f1f1f1;
+          box-shadow: 0px 5px 6px #f1f1f1; }
+
+.about__container--text {
+  padding: 2rem 6rem;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 35px; }
+
+@media (min-width: 996px) {
+  .about__container {
+    width: 1020px; } }
+
+@media (max-width: 515px) {
+  .about__container--text {
+    padding: 2rem 2rem;
+    font-size: 16px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-cgb-ikr-instagram-feed-block {
+  padding: 0 10rem; }
+  .wp-block-cgb-ikr-instagram-feed-block img {
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50px; }
+
+.ig__icon {
+  background-image: none !important; }
+
+.ig__icon:hover {
+  background-image: none !important; }
+
+.ig-feed-svg {
+  -webkit-transition: .12s ease-in-out;
+  -o-transition: .12s ease-in-out;
+  transition: .12s ease-in-out;
+  padding: 0.3rem 0; }
+
+.ig-feed-svg:hover {
+  fill: #BE817B; }
+
+.tooltip-inner {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.6rem; }
+
+.ig__feedBtn--btm {
+  margin: 1rem 0 6rem;
+  text-align: center; }
+  .ig__feedBtn--btm button {
+    background: #F7F7F7;
+    border: none;
+    padding: 0.5rem 1.8rem;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 1px #ccc;
+            box-shadow: 0 2px 1px #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px; }
+  .ig__feedBtn--btm button:focus {
+    outline: none; }
+
+.IG__images-img {
+  margin: 3rem 0 10rem 0;
+  max-width: 1200px;
+  display: grid;
+  grid-auto-rows: 348px;
+  grid-template-columns: repeat(auto-fill, minmax(279px, 1fr));
+  grid-gap: 2em; }
+  .IG__images-img div {
+    overflow: hidden; }
+  .IG__images-img img {
+    max-width: 133%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-cgb-block-illkidrecords-blocks-thank-you {
+  width: 700px;
+  padding: 1rem 5rem 10rem;
+  margin: 0 auto; }
+  .wp-block-cgb-block-illkidrecords-blocks-thank-you .thank-you--text {
+    font-family: 'bio sans';
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #a5a5a5; }
+  .wp-block-cgb-block-illkidrecords-blocks-thank-you .thankyou__text--highlite {
+    color: #333; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bg__photo--cover {
+  height: 170px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.bg__photo--coverLg {
+  position: relative;
+  height: 400px; }
+  .bg__photo--coverLg .cta__container {
+    background: rgba(0, 0, 0, 0.9);
+    width: 37rem;
+    position: absolute;
+    bottom: 9rem;
+    padding: 3rem; }
+  .bg__photo--coverLg .left {
+    left: 0; }
+  .bg__photo--coverLg .right {
+    right: 0; }
+  .bg__photo--coverLg .cta__container--TxtTop {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0; }
+  .bg__photo--coverLg .cta__container--TxtBtm {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ccc;
+    text-transform: uppercase;
+    margin: 0; }
+  .bg__photo--coverLg .cta__container--btm {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+  .bg__photo--coverLg .cta__Container--TxtBtmCoupon {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #e49393;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 0.3rem; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.crew__component--card {
+  margin: 1rem 0 15rem; }
+
+.crew__component--btn {
+  opacity: 0;
+  -webkit-transition: .12s ease;
+  -o-transition: .12s ease;
+  transition: .12s ease;
+  text-transform: uppercase; }
+
+.crew__component--avatar:hover .crew__component--btn {
+  opacity: 1;
+  background: #101010;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  padding: 0.6em 2.4rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 2px 0 0 #000;
+          box-shadow: 0 2px 0 0 #000; }
+
+.crew__component--artist {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.8rem 0 4px;
+  font-family: 'DopeJam', sans-serif; }
+
+.crew__component--description {
+  text-align: center;
+  font-family: 'HelveticaNeueBold';
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #a0a0a0; }
+
+.wp-block-columns {
+  width: 500px;
+  margin: 0 auto; }
+
+@media (max-width: 545px) {
+  .crew__component--card {
+    margin: 0rem 0 2rem; }
+  .wp-block-columns {
+    width: initial; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-cgb-block-illkidrecords-blocks-about-artist-block {
+  padding: 2rem 2rem 15rem;
+  width: 700px;
+  margin: 0 auto; }
+  .wp-block-cgb-block-illkidrecords-blocks-about-artist-block p {
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 500;
+    color: #333; }
+  .wp-block-cgb-block-illkidrecords-blocks-about-artist-block .about__container--description a {
+    font-size: 0.9rem;
+    text-transform: uppercase; }
