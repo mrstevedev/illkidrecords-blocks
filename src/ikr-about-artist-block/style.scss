@@ -11,8 +11,14 @@
     }
     .about__container--description {
         a {
-            font-size: 0.9rem;
-            text-transform: uppercase;
+            font-size: 1.2rem;
+            /* text-transform: uppercase; */
+            font-family: 'DopeJam';
+            color: #000;
+            background-image: none;
+            &:hover {
+                background-image: none;
+            }
         }
     }
 }
