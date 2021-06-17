@@ -61,8 +61,8 @@
 			type: 'array',
 		},
 		showArrows: {
-			type: Boolean,
-			source: "html"
+			type: Boolean
+
 		},
 		showCTA: {
 			type: Boolean,
@@ -221,7 +221,7 @@
 				backgroundColor: this.props.attributes.ctaColor
 			}
 			return (			 
-				<div className={ this.props.className }>
+				<div>
 					{
 					   <InspectorControls>
 						   <PanelBody title="Toggle Options">
@@ -454,22 +454,16 @@
 		// 	 console.log(e);
 		//  }
          return (	
-             <div className={ attributes.className } style={ bgStyle }
-				
-			 >
+             <div style={ bgStyle }>
 			{ attributes.showCTA ? (
-				 <div className="slide__CTA"
-					data-aos="fade" 
-					data-aos-delay="1400"
-					data-aos-duration="10"
-					data-aos-easing="ease-in-out" style={ ctaBoxBgColor }>
-				<div className="slide__CTA--left">
-					<RichText.Content tagName="h1" value={ attributes.CTADescriptionLeft } />
-						<div className="slide__CTA--leftBtm">
-							<RichText.Content tagName="h4" value={ attributes.CTADescriptionRight } />
-							<a href={ attributes.linkURL } className="cta-link-text">{ attributes.CTADescriptionLeftURLText }</a>
-						</div>
-				</div>
+				 <div className="slide__CTA" style={ ctaBoxBgColor }>
+					<div className="slide__CTA--left">
+						<RichText.Content tagName="h1" value={ attributes.CTADescriptionLeft } />
+							<div className="slide__CTA--leftBtm">
+								<RichText.Content tagName="h4" value={ attributes.CTADescriptionRight } />
+								<a href={ attributes.linkURL } className="cta-link-text">{ attributes.CTADescriptionLeftURLText }</a>
+							</div>
+					</div>
 					<div className="cta-separator"></div>
 				    <div className="slide__CTA--right">
 						<RichText.Content tagName="h4" value={ attributes.CTADescriptionSecondary } />
